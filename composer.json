@@ -1,5 +1,5 @@
 {
-    "name": "etv/test",
+    "name": "etv/test-bundle",
     "type": "symfony-bundle",
     "description": "Test",
     "keywords": ["library", "test"],
