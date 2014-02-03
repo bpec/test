@@ -1,0 +1,13 @@
+{
+    "name": "etv/test",
+    "type": "library",
+    "description": "Test",
+    "keywords": ["library", "test"],
+    "homepage": "https://github.com/bpec/test",
+    "autoload": {
+        "psr-0": {"Etv\\Test": "src/"}
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
