@@ -1,6 +1,6 @@
 {
     "name": "etv/test",
-    "type": "library",
+    "type": "symfony-bundle",
     "description": "Test",
     "keywords": ["library", "test"],
     "homepage": "https://github.com/bpec/test",
