@@ -5,7 +5,7 @@
     "keywords": ["library", "test"],
     "homepage": "https://github.com/bpec/test",
     "autoload": {
-        "psr-0": {"Etv\\Test": "vendor/bundles/"}
+        "psr-0": {"Etv\\Test": "bundles/etv/test"}
     },
     "require": {
         "php": ">=5.3.0",
