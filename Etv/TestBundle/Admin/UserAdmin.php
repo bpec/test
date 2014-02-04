@@ -17,6 +17,7 @@ class UserAdmin extends Admin
             //->add('firstname', 'entity', array('class' => 'Etv\TestBundle\Admin\Entity\User'))
            ->add('firstname', 'text', array('label' => 'First name'))
            ->add('lastname', 'text', array('label' => 'Last name'))
+           //->add('lastname', 'text', array('label' => 'Last name'))
         ;
     }
 

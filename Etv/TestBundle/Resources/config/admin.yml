@@ -8,5 +8,5 @@ services:
             - ~
             - Etv\TestBundle\Entity\User
             - ~
-        calls:
-            - [ setTranslationDomain, [AcmeDemoBundle]]
+#        calls:
+#            - [ setTranslationDomain, [AcmeDemoBundle]]

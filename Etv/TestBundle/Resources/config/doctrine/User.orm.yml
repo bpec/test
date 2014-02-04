@@ -12,7 +12,7 @@ Etv\TestBundle\Entity\User:
         username:
             type: string
             length: 255
-        firtname:
+        firstname:
             type: string
             length: 255
         lastname:
@@ -21,4 +21,23 @@ Etv\TestBundle\Entity\User:
         roles:
             type: string
             length: 255
+            nullable: no
+        createdAt:
+            type: datetime
+            column: created_at
+            gedmo:
+                timestampable:
+                    on: create
+        modifiedAt:
+            type: datetime
+            column: modify_at
+            gedmo:
+                timestampable:
+                    on: update
+        dateOfBirth:
+            type: date
+            column: date_of_birth
+        type:
+            type: smallint
+            nullable: false
     lifecycleCallbacks: {  }
