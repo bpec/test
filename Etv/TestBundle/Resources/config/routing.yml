@@ -1,0 +1,3 @@
+etv_test_homepage:
+    path:  /hello/{name}
+    defaults: { _controller: EtvTestBundle:Default:index }
