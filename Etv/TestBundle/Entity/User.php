@@ -187,6 +187,53 @@ class User
      */
     private $type;
 
+    /**
+     * Set dateOfBirth
+     *
+     * @param \DateTime $dateOfBirth
+     *
+     * @return User
+     */
+    public function setDateOfBirth($dateOfBirth)
+    {
+        $this->dateOfBirth = $dateOfBirth;
+
+        return $this;
+    }
+
+    /**
+     * Get dateOfBirth
+     *
+     * @return \DateTime 
+     */
+    public function getDateOfBirth()
+    {
+        return $this->dateOfBirth;
+    }
+
+    /**
+     * Set type
+     *
+     * @param integer $type
+     *
+     * @return User
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+
+        return $this;
+    }
+
+    /**
+     * Get type
+     *
+     * @return integer 
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
 
     /**
      * Set createdAt
@@ -234,53 +281,5 @@ class User
     public function getModifiedAt()
     {
         return $this->modifiedAt;
-    }
-
-    /**
-     * Set dateOfBirth
-     *
-     * @param \DateTime $dateOfBirth
-     *
-     * @return User
-     */
-    public function setDateOfBirth($dateOfBirth)
-    {
-        $this->dateOfBirth = $dateOfBirth;
-
-        return $this;
-    }
-
-    /**
-     * Get dateOfBirth
-     *
-     * @return \DateTime 
-     */
-    public function getDateOfBirth()
-    {
-        return $this->dateOfBirth;
-    }
-
-    /**
-     * Set type
-     *
-     * @param integer $type
-     *
-     * @return User
-     */
-    public function setType($type)
-    {
-        $this->type = $type;
-
-        return $this;
-    }
-
-    /**
-     * Get type
-     *
-     * @return integer 
-     */
-    public function getType()
-    {
-        return $this->type;
     }
 }
