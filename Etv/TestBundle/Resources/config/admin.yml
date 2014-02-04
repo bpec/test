@@ -1,0 +1,12 @@
+# Etv/TestBundle/Resources/config/admin.yml
+services:
+    sonata.admin.user:
+        class: Etv\TestBundle\Admin\UserAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Content", label: "User" }
+        arguments:
+            - ~
+            - Etv\TestBundle\Entity\User
+            - ~
+        calls:
+            - [ setTranslationDomain, [AcmeDemoBundle]]
