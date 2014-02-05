@@ -34,10 +34,14 @@ Etv\TestBundle\Entity\User:
             gedmo:
                 timestampable:
                     on: update
+        isActive:
+            type: boolean
+            column: is_active
         dateOfBirth:
             type: date
             column: date_of_birth
+            nullable: true
         type:
             type: smallint
-            nullable: false
+            nullable: true
     lifecycleCallbacks: {  }

@@ -38,6 +38,7 @@ class UserAdmin extends Admin
             ->addIdentifier('username')
             ->add('firstname')
             ->add('lastname')
-        ;
+            ->add('created_at','datetime')
+            ->add('modify_at','datetime');
     }
 }
